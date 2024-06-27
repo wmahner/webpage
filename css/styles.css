@@ -179,6 +179,27 @@ section.intro {
     background: #0a0a0a;
 }
 
+/* Shifting Colors */
+.shifting-colors {
+    width: 100px;
+    height: 100px;
+    background-color: #3498db;
+    position: relative;
+    animation: colorShift 3s infinite;
+}
+
+@keyframes colorShift {
+    0% {
+        background-color: #3498db;
+    }
+    50% {
+        background-color: #e74c3c;
+    }
+    100% {
+        background-color: #27ae60;
+    }
+}
+
 footer {
     text-align: center;
     padding: 20px;
