@@ -51,6 +51,13 @@ section.intro {
     background: rgba(255, 255, 255, 0.1);
     border-radius: 10px;
     transition: transform 0.3s ease;
+    text-align: center;
+}
+
+.content .card img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
 }
 
 .content .card:hover {
@@ -123,6 +130,52 @@ section.intro {
 @keyframes float {
     0%, 100% { transform: translateY(0); }
     50% { transform: translateY(-20px); }
+}
+
+.parallax {
+    position: relative;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+}
+
+.parallax1 {
+    background-image: url('images/6.jpg');
+}
+
+.parallax2 {
+    background-image: url('images/2.jpg');
+}
+
+.parallax3 {
+    background-image: url('images/3.jpg');
+}
+
+.parallax4 {
+    background-image: url('images/4.jpg');
+}
+
+.parallax5 {
+    background-image: url('images/5.jpg');
+}
+
+.parallax h2 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #ffffff;
+    background: rgba(0, 0, 0, 0.5);
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 2em;
+}
+
+.parallax-text {
+    padding: 40px 20px;
+    text-align: center;
+    background: #0a0a0a;
 }
 
 footer {
