@@ -138,26 +138,27 @@ section.intro {
     background-size: cover;
     background-position: center;
     height: 400px;
+    width: 100%;
 }
 
 .parallax1 {
-    background-image: url('images/6.jpg');
+    background-image: url('../images/6.jpg'); /* Adjust the path */
 }
 
 .parallax2 {
-    background-image: url('images/2.jpg');
+    background-image: url('../images/2.jpg'); /* Adjust the path */
 }
 
 .parallax3 {
-    background-image: url('images/3.jpg');
+    background-image: url('../images/3.jpg'); /* Adjust the path */
 }
 
 .parallax4 {
-    background-image: url('images/4.jpg');
+    background-image: url('../images/4.jpg'); /* Adjust the path */
 }
 
 .parallax5 {
-    background-image: url('images/5.jpg');
+    background-image: url('../images/5.jpg'); /* Adjust the path */
 }
 
 .parallax h2 {
