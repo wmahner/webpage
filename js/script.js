@@ -15,3 +15,13 @@ function changeColor() {
 }
 
 setInterval(changeColor, 3000); // Change color every 3 seconds
+
+// Cursor Reactive Animation
+const cursorReactive = document.querySelector('.cursor-reactive-anim');
+
+document.addEventListener('mousemove', (e) => {
+    const { clientX, clientY } = e;
+    const offsetX = (clientX / window.innerWidth - 0.5) * 100;
+    const offsetY = (clientY / window.innerHeight - 0.5) * 100;
+    cursorReactive.style.transform = `translate(-50%, -50%) translate(${offsetX}px, ${offsetY}px)`;
+});
